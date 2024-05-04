@@ -10,7 +10,7 @@ body{
 }
 
 content{
-    width: 460px;
+    width: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,7 @@ content{
 
 /*Блок заголовку */
 .title{
-    width: auto;
+    width: 460px;
     padding: 10px;
     margin-top: 20px;
 
@@ -44,8 +44,8 @@ content{
 
 /* Блок окремого товару*/
 .item {
-min-width: 200px;
-min-height: 400px;
+width: 210px;
+height: 350px;
 margin-bottom: 10px;
 padding: 10px;
 
@@ -66,8 +66,9 @@ justify-content: space-between;
 }
  
 /* Блок зображення товару*/
-.item-image{
-    height: 200px;
+.item img{
+    height: 220px;
+    width: 200px;
 }
 
 /*Блок з оплатою частинами*/
