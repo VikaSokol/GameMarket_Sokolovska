@@ -10,7 +10,7 @@ body{
 }
 
 content {
-    width: 460px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +44,7 @@ content {
 }
 /* блок окремого товару */
 .item {
-    min-width: 200px;
+    width: 200px;
     min-height: 400px;
     margin-bottom: 10px;
     padding: 10px;

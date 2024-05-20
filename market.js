@@ -95,7 +95,7 @@ let itemsArray = [
         prise_coupon: 4395,
     },
     {
-        title: "Електрична газонокосарка32",
+        title: "Електрична газонокосарка 32",
         image:"https://cdn.comfy.ua/media/catalog/product/cache/5/image/600x/9df78eab33525d08d6e5fb8d27136e95/_/3/_3400257.jpg",
         mono: 6,
         pb: 8,
@@ -136,8 +136,8 @@ if (itemsDiv) {
 
         <!-- блок з оплатою частинами -->
         <div class="parts-pay">
-          <div><img src="img-market/mono-lapka." alt="">${item.mono}</div>
-          <div><img src="img-market/pb.jpg" alt="">${item.pb}</div>
+          <div><img src="photo/mono.png" alt="">${item.mono}</div>
+          <div><img src="photo/pb.jpg" alt="">${item.pb}</div>
         </div>
         <!-- блок ціни -->
         <div class="price">
