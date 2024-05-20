@@ -142,7 +142,7 @@ if (itemsDiv) {
         <!-- блок ціни -->
         <div class="price">
           <div><span>${item.prise_standart}</span> <sup>грн</sup></div>
-          <div><span>${itrm.prise_discount}</span> <sup>грн</sup></div>
+          <div><span>${item.prise_discount}</span> <sup>грн</sup></div>
         </div>
 
         <!-- блок бонусної ціни  -->
