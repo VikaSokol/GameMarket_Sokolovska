@@ -1,78 +1,77 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 
-    background-color: #f1f1f1;
-    font-family: sans-serif;
+    font-family: sans-serif; 
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
 }
 
-content{
-    width: 480px;
+content {
+    width: 460px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+
 }
 
-/*Блок заголовку */
-.title{
-    width: 460px;
+/* div{
+    border: 1px solid darkgrey ;
+} */
+.title {
+    width: auto;
     padding: 10px;
     margin-top: 20px;
-
-    background: rgb(253, 48, 48);
+    
+    background:red ;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
     letter-spacing: 3px;
 }
-
-/*Блок товарів*/
-.items{
+/* блок товарів */
+.items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-/* Блок окремого товару*/
+/* блок окремого товару */
 .item {
-width: 210px;
-height: 350px;
-margin-bottom: 10px;
-padding: 10px;
-
-background-color: #ffffff;
-
-border: 1px solid rgb(194, 194, 194);
-border-radius: 5px;
-box-shadow: 0 0 7px rgba(0,0,0,0.3);
-
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+    min-width: 200px;
+    min-height: 400px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
 }
-
-/*Блок назви товару*/
-.item-title{
+/* блок назва товару */
+.item-title {
     font-weight: bold;
 }
- 
-/* Блок зображення товару*/
-.item img{
-    height: 220px;
-    width: 200px;
+
+
+/* блок зображення товару */
+.item-image {
+    height: 200px;
+   
+    
 }
 
-/*Блок з оплатою частинами*/
-.parts-pay{
+/* блок з оплатою частинами */
+.parts-pay {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -80,12 +79,13 @@ justify-content: space-between;
     justify-content: center;
 }
 
-/* Зображення, які знаходяться в блоці оплати частинами*/
-.parts-pay img{
+/* зображення, які знаходяться в блоці оплати частинами */
+.parts-pay img {
     height: 24px;
+
 }
 
-/*Блок ціни*/
+/* блок ціни */
 .price{
     border: 1px solid rgb(194, 194, 194);
     border-radius: 5px;
@@ -93,65 +93,73 @@ justify-content: space-between;
     display: flex;
 }
 
-.price div:first-child{
+.price div:first-child {
     width: 100px;
     font-size: 20px;
 }
 
-.price div:first-child span{
-    text-decoration-line: line-through;
+.price div :first-child span {
+    text-decoration: line-through;
 }
-.price div:first-child sup{
-    font-size: 12px;
-} 
 
-.price div:last-child{
+.price div :first-child sup {
+    font-size: 12px;
+}
+
+.price div:last-child {
     font-size: 24px;
 }
-
-.price div:last-child sup{
+.price div:last-child sup {
     font-size: 14px;
 }
 
-/*Блок бонусної ціни*/
-.bonus{
-    background: rgb(253, 48, 48);
-    color: white;
+/* блок бонусної ціни */
+.bonus {
+    background: red ;
+    color: #ffffff;
     border-radius: 5px;
     display: flex;
     align-items: center;
 }
 
-.bonus div:first-child{
+.bonus div:first-child {
     width: 100px;
     font-size: 14px;
 }
 
-.bonus div:last-child{
+.bonus:last-child {
     font-size: 24px;
-} 
+}
 
-.bonus div:last-child sup{
+.bonus:last-child sup {
     font-size: 14px;
-} 
+}
 
-/*Блок контактів*/
-.contacts p{
+
+/* блок контактів */
+
+.contacts p {
     margin: 3px;
 }
 
-.contacts p:first-child{
+.contacts p:first-child {
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-.contacts p:last-child{
-   border-left: 3px solid rgb(253, 48, 48);
+.contacts p:last-child {
+    border-left: 3px solid red;
 }
 
-/*Блок інформації*/
-.info{
+/* блок інформації */
+.info {
     font-size: 9px;
     text-align: justify;
-    color: rgb(120,120,120);
+    color: rgb(120, 120, 120);
 }
+
+/* .license {
+    font-size: 9px;
+    text-align: justify;
+    color: rgb(120, 120, 120);
+} */
