@@ -86,8 +86,8 @@ let itemsArray = [
         prise_coupon: 4395,
          },
     {
-        title: "Мотокоса 43",
-        image:"",
+        title: "Електричний тример 110",
+        image:"photo/тример.png",
         mono: 6,
         pb: 8,
         prise_standart: 5499,
@@ -95,8 +95,8 @@ let itemsArray = [
         prise_coupon: 4395,
     },
     {
-        title: "Мотокоса 43",
-        image:"",
+        title: "Електрична газонокосарка32",
+        image:"https://cdn.comfy.ua/media/catalog/product/cache/5/image/600x/9df78eab33525d08d6e5fb8d27136e95/_/3/_3400257.jpg",
         mono: 6,
         pb: 8,
         prise_standart: 5499,
@@ -104,8 +104,8 @@ let itemsArray = [
         prise_coupon: 4395,
     },
     {
-        title: "Мотокоса 43",
-        image:"",
+        title: "Акумуляторний оприскувач 12N",
+        image:"https://static.dnipro-m.ua/cache/products/8964/catalog_origin_314479.jpg",
         mono: 6,
         pb: 8,
         prise_standart: 5499,
