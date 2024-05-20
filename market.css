@@ -66,6 +66,7 @@ content {
 /* блок зображення товару */
 .item-image {
     height: 200px;
+    width: 25px;
    
     
 }
