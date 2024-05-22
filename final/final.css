@@ -10,7 +10,7 @@ body{
 }
 
 content {
-    width: 450px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,8 +44,8 @@ content {
 }
 /* блок окремого товару */
 .item {
-    width: 200px;
-    min-height: 400px;
+    width: 800px;
+    height: 700px;
     margin-bottom: 10px;
     padding: 10px;
     background-color: #ffffff;
@@ -65,11 +65,20 @@ content {
 
 /* блок зображення товару */
 .item-image {
-    height: 200px;
-    width: 200px;
+    
+   display: flex;
+   gap: 10px;
+    
+}
+
+.item-image img{
+    /* width: 300px; */
+    height: 300px;
    
     
 }
+
+
 
 /* блок з оплатою частинами */
 .parts-pay {

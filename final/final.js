@@ -76,42 +76,22 @@
 //]
 
 let itemsArray = [
-    {
-        title: "Мотокоса 43",
-        image: "https://hotline.ua/img/tx/319/3193450945.jpg",
-        mono: 6,
-        pb: 8,
-        prise_standart: 5499,
-        prise_discount: 4497,
-        prise_coupon: 4395,
-         },
-    {
-        title: "Електричний тример 110",
-        image:"photo/тример.png",
-        mono: 6,
-        pb: 8,
-        prise_standart: 5499,
-        prise_discount: 4497,
-        prise_coupon: 4395,
-    },
-    {
-        title: "Електрична газонокосарка 32",
-        image:"https://cdn.comfy.ua/media/catalog/product/cache/5/image/600x/9df78eab33525d08d6e5fb8d27136e95/_/3/_3400257.jpg",
-        mono: 6,
-        pb: 8,
-        prise_standart: 5499,
-        prise_discount: 4497,
-        prise_coupon: 4395,
-    },
-    {
-        title: "Акумуляторний оприскувач 12N",
-        image:"https://static.dnipro-m.ua/cache/products/8964/catalog_origin_314479.jpg",
-        mono: 6,
-        pb: 8,
-        prise_standart: 5499,
-        prise_discount: 4497,
-        prise_coupon: 4395,
-    },    
+  {
+    email: "23b_lam@liceum.ztu.edu.ua",
+    class: "10-Б 2",
+    name: "Лещенко Настя",
+    nickname: "dude настюшкі",
+    author_photo: "Лещенко.jpg",
+    game_photo: "Лещенко_game.jpg",
+    github_project1: "https://github.com/Leschenko1001/Phaser2ndGame1?authuser=0",
+    project1_demo: "https://leschenko1001.github.io/Phaser2ndGame1/?authuser=0",
+    google_drive: "https://drive.google.com/drive/folders/1CqBXUS5Rk1u8nhEq3_l7LYMjDalYqPgW?usp=classroom_web&authuser=0",
+    google_form: "https://forms.gle/aLmXJ7nEnjo6PGuZ8?authuser=0",
+    github_project2: "https://github.com/Leschenko1001/GameMarket_Leschenko",
+    project2_demo: "https://leschenko1001.github.io/GameMarket_Leschenko/?authuser=0",
+    project2_market: "https://leschenko1001.github.io/GameMarket_Leschenko/market.html?authuser=0",
+    project2_final: "https://leschenko1001.github.io/GameMarket_Leschenko/final/final.html?authuser=0"
+  }
 ]
 
 //отримання елементу з ідентифікатором items
@@ -127,11 +107,14 @@ if (itemsDiv) {
         <div class="item"> 
 
         <!-- блок назва товару  -->
-        <div class="item-title">${item.title}</div>
+        <div class="item-title">${item.nickname}</div>
+        <div class="item-title">${item.class}</div>
+        <div class="item-title">${item.email}</div>
 
         <!-- блок зображення товару  -->
         <div class="item-image">
-          <img src="${item.image}" class="item-image" />
+          <img src="img/${item.author_photo}" class="image" />
+          <img src="img/${item.game_photo}" class="image" />
         </div>
 
         <!-- блок з оплатою частинами -->
