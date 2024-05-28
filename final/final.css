@@ -22,7 +22,7 @@ content {
     border: 1px solid darkgrey ;
 } */
 .title {
-    width: auto;
+    width: 775px;
     padding: 10px;
     margin-top: 20px;
     
@@ -44,8 +44,8 @@ content {
 }
 /* блок окремого товару */
 .item {
-    width: 800px;
-    height: 700px;
+    width: 900px;
+    height: 500px;
     margin-bottom: 10px;
     padding: 10px;
     background-color: #ffffff;
@@ -62,18 +62,20 @@ content {
     font-weight: bold;
 }
 
-
+img  {
+    /*width: 300px;*/
+    height: 300px;
+}
 /* блок зображення товару */
 .item-image {
-    
    display: flex;
    gap: 10px;
     
 }
 
 .item-image img{
-    /* width: 300px; */
-    height: 300px;
+     width: 300px; 
+    /*height: 100px;*/
    
     
 }
